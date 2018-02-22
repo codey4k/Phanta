@@ -1,0 +1,65 @@
+/*
+Theme Name: Phanta
+Author: Y4k
+Author URI: https://twitter.com/codey4k
+Version: beta
+Description: Dark theme
+*/
+
+/*---------- Resets -----------*/
+*{
+    margin : 0;
+    padding : 0;
+    border : none;
+    outline : none;
+    box-sizing : border-box;
+}
+
+li,ol,ul {
+    list-style : none;
+}
+
+a {
+    color : transparent;
+    text-decoration : none;
+}
+
+div,
+nav,
+img,
+header,
+footer,
+section,
+aside,
+picture {
+    display : block;
+}
+/*-----------------------------*/
+
+/*---------- Variables --------*/
+:root {
+    --theme : #333;
+    
+    --secondaryColor : violet;
+    
+    --fontColor : #ccc;
+    --fontColor2 : #eee;
+}
+/*-----------------------------*/
+
+
+body {
+    background : #eee;
+    min-height : 100vh;
+    font-family : Helvetica;
+}
+
+.wrap {
+    width : 100%;
+    height : 100%;
+    background : var(--theme);
+}
+
+.menu {}
+
+.menu__container {}
