@@ -8,6 +8,9 @@ $header = '
             <img src="" alt="header img" class="header__img" />
         </div>
     </header>
+    <main class="main">
+        
+    </main>
 ';
 
 printf($header);
