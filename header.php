@@ -11,7 +11,7 @@ $html = '
         </head>
         <body>
             <div class="wrap">
-                <section class="menu">
+                <section class="menu" id="menu-bar">
                     <div class="menu__container"></div>
                 </section>
 ';
