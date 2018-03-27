@@ -9,7 +9,8 @@ $header = '
         </div>
     </header>
     <main class="main">
-        
+        <div class="main__container">
+        </div>
     </main>
 ';
 
