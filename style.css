@@ -6,6 +6,8 @@ Version: beta
 Description: Dark theme
 */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 /*---------- Resets -----------*/
 *{
     margin : 0;
@@ -64,7 +66,7 @@ figcaption {
 body {
     background : #eee;
     min-height : 100vh;
-    font-family : Helvetica;
+    font-family : 'Montserrat', Helvetica;
 }
 
 body::-webkit-scrollbar {
