@@ -54,7 +54,7 @@ figcaption {
 /*---------- Variables --------*/
 :root {
     --theme : #333;
-    
+    --gradient-theme : linear-gradient( 135deg, #3B2667 10%, #BC78EC 100%);
     --secondaryColor : violet;
     
     --fontColor : #ccc;
@@ -74,7 +74,8 @@ body::-webkit-scrollbar {
     background : var(--theme);
 }
 body::-webkit-scrollbar-thumb {
-    background : var(--secondaryColor);
+    border-radius : 5px;
+    background : var(--gradient-theme);
 }
 
 .wrap {
@@ -92,7 +93,7 @@ body::-webkit-scrollbar-thumb {
     margin-left : 50%;
     transform : translateX(-50%);
     
-    background : var(--secondaryColor);
+    background : var(--gradient-theme);
     
     /*border-top-left-radius : 25px;*/
     /*border-top-right-radius : 25px;*/
