@@ -10,6 +10,7 @@ $html = '
             %s
         </head>
         <body>
+            <div class="fab"></div>
             <div class="wrap">
                 <section class="menu" id="menu-bar">
                     <div class="menu__container"></div>

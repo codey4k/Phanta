@@ -78,6 +78,17 @@ body::-webkit-scrollbar-thumb {
     background : var(--gradient-theme);
 }
 
+.fab {
+    position : fixed;
+    right : 3em;
+    bottom : 3em;
+    width : 80px;
+    height : 80px;
+    border-radius : 50%;
+    background : var(--gradient-theme);
+    z-index : 2000;
+}
+
 .wrap {
     width : 100%;
     height : 100%;
